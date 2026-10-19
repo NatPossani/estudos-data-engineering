@@ -1,632 +1,355 @@
-# computação em nuvem
+# COMPUTAÇÃO EM NUVEM
 
+	um modelo para permitir acesso obliquo, conveniente e sob demanda via rede a um agrupamento compartilhado e configurável de recursos computacionais (como redes, servidores, armazenamento, aplicações e serviços), que pode ser rapidamente provisionado e liberado com esforço mínimo de gerenciamento ou interação com provedor de serviços
 
-
-### o que é
-
-&#x09;um modelo para permitir acesso obliquo, conveniente e sob demanda via rede a um agrupamento compartilhado e configurável de recursos computacionais (como redes, servidores, armazenamento, aplicações e serviços), que pode ser rapidamente provisionado e liberado com esforço mínimo de gerenciamento ou interação com provedor de serviços
-
-
-
-&#x09;alguns exemplos
-
-&#x09;	- google drive/OneDrive
-
-&#x09;	- netflix
-
-&#x09;	- Microsoft 365
-
+	alguns exemplos
+	- google drive/OneDrive
+	- netflix
+	- Microsoft 365
 
 
 ### principais características
 
-&#x09;- autoatendimento sob demanda: provisionar recursos com a interação minima/quase nula
-
-&#x09;- amplo acesso a rede: a nuvem pode ser acessada em qualquer lugar
-
-&#x09;- agrupamento de recursos: confidencialidade de seus recursos (somente sua empresa pode acessar os recursos)
-
-&#x09;- elasticidade rápida: representa a capacidade do armazenamento em nuvem se adaptarem com a quantidade de demanda referente a ela
-
-&#x09;- serviço mensurável: custos e gastos proveniente do serviço em nuvem
-
+	- autoatendimento sob demanda: provisionar recursos com a interação minima/quase nula
+	- amplo acesso a rede: a nuvem pode ser acessada em qualquer lugar
+	- agrupamento de recursos: confidencialidade de seus recursos (somente sua empresa pode acessar os recursos)
+	- elasticidade rápida: representa a capacidade do armazenamento em nuvem se adaptarem com a quantidade de demanda referente a ela
+	- serviço mensurável: custos e gastos proveniente do serviço em nuvem
 
 
 ### beneficios
 
-&#x09;- escalabilidade: **ajuste dinamico de recursos** com cobrança proporcional ao uso
-
-&#x09;- economia de custos: infraestrutura economica **sem investimento inicial**
-
-&#x09;- segurança aprimorada: adição do fator **segurança fisica de ponta** do provedor de nuvem
-
-&#x09;- disponibilidade global: acesso de qualquer lugar
-
-* resiliencia e backup: capacidade **robusta de recuperação para continuidade** dos negocios
-
-&#x09;- inovação: **inovação ágil e economica** com tecnologias em nuvem
-
-
-
+	- escalabilidade: ajuste dinamico de recursos com cobrança proporcional ao uso
+	- economia de custos: infraestrutura economica sem investimento inicial
+	- segurança aprimorada: adição do fator segurança fisica de ponta do provedor de nuvem
+	- disponibilidade global: acesso de qualquer lugar
+	- resiliencia e backup: capacidade robusta de recuperação para continuidade dos negocios
+	- inovação: inovação ágil e economica com tecnologias em nuvem
 
 
 ### modelos de serviço
 
-&#x09;define o **nivel de controle e responsabilidade** entre provedor e cliente
+	define o nivel de controle e responsabilidade entre provedor e cliente
 
+#### IaaS (infrastructure as a service)
 
+	oferece recursos computacionais virtualizados via internet, como servidores, rede e armazenamento
+	- recursos sob demanda
+	- alta escalabilidade/elasticidade
+	- maior controle do ambiente
+	- eliminação de estrutura fisica
+	- acesso remoto via internet
+	- automação e orquestração
+	- modelo de pagamento flexivel
 
-#### IaaS(infrastructure as a service)
+#### PaaS (plataform as a service)
 
-&#x09;oferece recursos computacionais virtualizados via internet, como servidores, rede e armazenamento
+	ambiente complexo para desenvolver, executar e gerenciar aplicativos (interpretadores, bibliotecas, aplicativos de desenvolvimento)
+	- ambiente completo para desenvolvimento
+	- abstração da infraestrutura
+	- escalabilidade automatica
+	- implantação simplificada
+	- modelo de pagamento flexivel
 
-&#x09;- recursos sob demanda
+#### SaaS (software as a service)
 
-&#x09;- alta escalabilidade/elasticidade
-
-&#x09;- maior controle do ambiente
-
-&#x09;- eliminação de estrutura fisica
-
-&#x09;- acesso remoto via internet
-
-&#x09;- automação e orquestração
-
-&#x09;- modelo de pagamento flexivel
-
-
-
-#### PaaS(plataform as a service)
-
-&#x09;ambiente complexo para desenvolver, executar e gerenciar aplicativos (interpretadores, bibliotecas, aplicativos de desenvolvimento)
-
-&#x09;- ambiente completo para desenvolvimento
-
-&#x09;- abstração da infraestrutura
-
-&#x09;- escalabilidade automatica
-
-&#x09;- implantação simplificada
-
-&#x09;- modelo de pagamento flexivel
-
-
-
-#### SaaS(software as a service)
-
-&#x09;software pronto para uso, acessivel pela internet
-
-&#x09;- gerenciamento e manutenção pelo provedor
-
-&#x09;- atualizações por responsabilidade do provedor
-
-&#x09;- segurança e backup gerenciados pelo provedor
-
-&#x09;- escalabilidade sob demanda
-
-&#x09;- multi-tenant (varios clientes utilizam o mesmo software)
-
-&#x09;- modelo de assinatura
-
-
+	software pronto para uso, acessivel pela internet
+	- gerenciamento e manutenção pelo provedor
+	- atualizações por responsabilidade do provedor
+	- segurança e backup gerenciados pelo provedor
+	- escalabilidade sob demanda
+	- multi-tenant (varios clientes utilizam o mesmo software)
+	- modelo de assinatura
 
 outros modelos
-
-* Caas (container as a service)
-
-&#x09;- Faas (function as a service/serveless computing)
-
-&#x09;- Daas (desktop as a service)
-
+	- Caas (container as a service)
+	- Faas (function as a service/serveless computing)
+	- Daas (desktop as a service)
 
 
 ### quais as diferenças entre os modelos de serviço
 
-&#x09;- diferentes niveis de responsabilidade
-
-&#x09;	- IaaS: mais controle, mas exige mais responsabilidade do cliente
-
-&#x09;	- PaaS: equilibra agilidade com segurança compartilhada
-
-&#x09;	- SaaS: transfere quase toda a responsabilidade ao provedor, mas o cliente ainda precisa gerencias quem acessa e como
-
+	- diferentes niveis de responsabilidade
+	- IaaS: mais controle, mas exige mais responsabilidade do cliente
+	- PaaS: equilibra agilidade com segurança compartilhada
+	- SaaS: transfere quase toda a responsabilidade ao provedor, mas o cliente ainda precisa gerencias quem acessa e como
 
 
 ### modelos sob a otica de segurança
 
+#### riscos comuns
+	- IaaS: ma configuração de firewall, falta de patch, exposição de dados
+	- PaaS: vulnerabilidade no codigo da aplicação, ma gestao de dados
+	- SaaS: acesso indevido por usuarios, uso indevido de dados
 
-
-##### riscos comuns
-
-&#x09;- IaaS: ma configuração de firewall, falta de patch, exposição de dados
-
-&#x09;- PaaS: vulnerabilidade no codigo da aplicação, ma gestao de dados
-
-&#x09;- SaaS: acesso indevido por usuarios, uso indevido de dados
-
-
-
-##### exemplos de boas praticas
-
-&#x09;- IaaS: hardening de SO, criptografia, IAM, monitoramento com cloudwatch ou azure monitor
-
-&#x09;- PaaS: validaçao de entrada, criptografia de dados, controle de acesso
-
-&#x09;- SaaS: autenticaçao multifator, gestao de identidade, revisao de permissoes
-
+#### exemplos de boas praticas
+	- IaaS: hardening de SO, criptografia, IAM, monitoramento com cloudwatch ou azure monitor
+	- PaaS: validaçao de entrada, criptografia de dados, controle de acesso
+	- SaaS: autenticaçao multifator, gestao de identidade, revisao de permissoes
 
 
 ### o que é um modelo de responsabilidade compartilhada
 
-&#x09;é uma estruruta que define de forma clara as obrigaçoes do provedor de nuvem e do cliente
-
-&#x09;- pilar fundamental da segurança em nuvem
-
+	é uma estruruta que define de forma clara as obrigaçoes do provedor de nuvem e do cliente
+	- pilar fundamental da segurança em nuvem
 
 
 ### por que ele é importante?
 
-&#x09;- define quem é o responsavel pela:
-
-&#x09;	- utilização
-
-&#x09;	- gestao
-
-&#x09;	- conformidade
-
-&#x09;	- segurança
-
+	define quem é o responsavel pela:
+	- utilização
+	- gestao
+	- conformidade
+	- segurança
 
 
 ### modelos de implantaçao
 
-&#x20;	os recursos e serviços de computação em nuvem sao organizados e disponibilizados
-
-##### 
-
-##### nuvem publica
-
-&#x09;caracteristicas
-
-&#x09;	- infraestrutura física é do provedores de nuvem
-
-&#x09;	- acesso atraves da internet
-
-&#x09;	- hardware compartilhado com varias empresas
-
-
-
-&#x09;vantagens
-
-&#x09;	- reduçao de custos
-
-&#x09;	- sem necessidade de manutenção fisica
-
-&#x09;	- acesso a tecnologias emergentes
-
-&#x09;	- escalabilidade quase ilimitada
-
-&#x09;	- alta confiabilidade
-
-
-
-&#x09;desafios de segurança
-
-&#x09;	- responsabilidade pela segurança compartilhada
-
-&#x09;	- solução de problemas apenas em escala digital/logica
-
-&#x09;	- descobertas de profissionais especializados
-
-&#x09;	- conformidade e auditoria
-
-
-
-##### nuvem privada
-
-&#x09;caracteristicas
-
-&#x09;	- hardware dedicado ao cliente
-
-&#x09;	- maior controle e personalização (data center local)
-
-&#x09;	- recursos isolados
-
-&#x09;	- custo mais elevado
-
-
-
-&#x09;vantagens
-
-&#x09;	- maior escalabilidade
-
-&#x09;	- segurança controlada pelo cliente\* (ainda tem uma parte da segurança que é responsabilizada pelo provedor)
-
-&#x09;	- conformidade com normas regulatórias
-
-&#x09;	- personalização e integração com sistemas lógicos
-
-&#x09;	- melhor governança de dados
-
-
-
-&#x09;desafios de segurança
-
-&#x09;	- responsabilidade quase total pela segurança
-
-&#x09;	- complexidade na gestão de ambientes
-
-&#x09;	- escassez de profissionais especializados
-
-&#x09;	- limitação na capacidade de monitoramento do ambiente
-
-&#x09;	- conformidade e auditoria sob responsabilidade total
-
-##### 
-
-##### nuvem hibrida (o modelo mais utilizado)
-
-&#x09;caracteristicas
-
-&#x09;	- uso da nuvem publica e privada
-
-&#x09;	- integração entre ambientes
-
-&#x09;	- acesso via internet
-
-
-
-&#x09;vantagens
-
-&#x09;	- flexibilidade estratégica
-
-&#x09;	- escalabilidade sob demanda
-
-&#x09;	- maior controle sobre os dados
-
-&#x09;	- continuidade de negocio e resiliencia
-
-&#x09;	- otimização de custos operacionais
-
-&#x09;	- modernizaçao gradual da ti
-
-&#x09;
-
-&#x09;desafios de segurança
-
-&#x09;	- visibilidade limitada e controle fragmentado
-
-&#x09;	- integração segura entre ambientes
-
-&#x09;	- complexibilidade operacional
-
-&#x09;	- latencia
-
-&#x09;	- superficie de ataque ampliada
-
-
+	os recursos e serviços de computação em nuvem sao organizados e disponibilizados
+
+#### nuvem publica
+
+	caracteristicas
+	- infraestrutura física é do provedores de nuvem
+	- acesso atraves da internet
+	- hardware compartilhado com varias empresas
+
+	vantagens
+	- reduçao de custos
+	- sem necessidade de manutenção fisica
+	- acesso a tecnologias emergentes
+	- escalabilidade quase ilimitada
+	- alta confiabilidade
+
+	desafios de segurança
+	- responsabilidade pela segurança compartilhada
+	- solução de problemas apenas em escala digital/logica
+	- descobertas de profissionais especializados
+	- conformidade e auditoria
+
+#### nuvem privada
+
+	caracteristicas
+	- hardware dedicado ao cliente
+	- maior controle e personalização (data center local)
+	- recursos isolados
+	- custo mais elevado
+
+	vantagens
+	- maior escalabilidade
+	- segurança controlada pelo cliente* (ainda tem uma parte da segurança que é responsabilizada pelo provedor)
+	- conformidade com normas regulatórias
+	- personalização e integração com sistemas lógicos
+	- melhor governança de dados
+
+	desafios de segurança
+	- responsabilidade quase total pela segurança
+	- complexidade na gestão de ambientes
+	- escassez de profissionais especializados
+	- limitação na capacidade de monitoramento do ambiente
+	- conformidade e auditoria sob responsabilidade total
+
+#### nuvem hibrida (o modelo mais utilizado)
+
+	caracteristicas
+	- uso da nuvem publica e privada
+	- integração entre ambientes
+	- acesso via internet
+
+	vantagens
+	- flexibilidade estratégica
+	- escalabilidade sob demanda
+	- maior controle sobre os dados
+	- continuidade de negocio e resiliencia
+	- otimização de custos operacionais
+	- modernizaçao gradual da ti
+
+	desafios de segurança
+	- visibilidade limitada e controle fragmentado
+	- integração segura entre ambientes
+	- complexibilidade operacional
+	- latencia
+	- superficie de ataque ampliada
 
 #### nuvem comunitaria
 
-&#x09;caracteristicas
+	caracteristicas
+	- infraestrutura compartilhada com outros clientes
+	- gerenciamento colaborativo
+	- ambiente dedicado
+	- custos distribuidos entre os participantes
 
-&#x09;	- infraestrutura ompartilhada com outros clientes
+#### modelo multicloud
 
-&#x09;	- gerenciamento colaborativo
+	caracteristicas
+	- 2 ou mais provedores de nuvem
+	- infraestruturas diferentes na nuvem se conectam
+	- amplitude de serviços
 
-&#x09;	- ambiente dedicado
+	vantagens
+	- redução do risco de dependencia de fornecedor (vendor lock-in)
+	- flexibilidade na adoção do melhor recurso de cada plataforma
+	- melhoria na recuperação de desastre
+	- otimização de custos
+	- maior alcance geografico
 
-&#x09;	- custos distribuidos entre os participantes
+	desafios de segurança
+	- visibilidade limitada e controle fragmentado
+	- conformidade regulatoria
+	- gerenciamento de identidade e acesso
+	- integração entre as clouds
+	- superficie de ataque ampliada
 
 
+### PROVEDORES DE NUVEM
 
-##### modelo multicloud
+	empresas que oferecem serviços de computação em nuvem (de diversos modelos) através da internet
+	- autoatendimento sob demanda
+	- amplo acesso a rede
+	- agrupamento de recursos
+	- elasticidade rapida
+	- serviço mensuravel
 
-&#x09;caracteristicas
+	principais provedores do mercado
+	- AWS
+	- Microsoft AZURE
+	- google cloud plataform (gcp)
 
-&#x09;	- 2 ou mais provedores de nuvem
+#### AWS
 
-&#x09;	- infraestruturas diferentes na nuvem se conectam
+	é a escolha mais madura e versátil, ideal para empresas que buscam amplitude de serviços e escala global
 
-&#x09;	- amplitude de serviços
+	pontos fortes
+	- maior maturidade e variedade de serviços
+	- presença global consolidada
 
+	diferenciais estrategicos
+	- ampla comunidade e suporte técnico
+	- serviços avançados em computação, ia e iot
 
+#### microsoft AZURE
 
-&#x09;vantagens
+	se destaca em ambientes corporativos e hibridos, com forte integração ao ecossistema microsoft
 
-&#x09;	- redução do risco de dependencia de fornecedor (vendor lock-in)
+	pontos fortes
+	- integração nativa com produtos microsoft
+	- suporte a soluções multicloud com azure arc
 
-&#x09;	- flexibilidade na adoção do melhor recurso de cada plataforma
+	diferenciais estrategicos
+	- ideal para empresas que ja usam microsoft
+	- liderança em nuvem hibrida
 
-&#x09;	- melhoria na recuperação de desastre
+#### GCP - google cloud plataform
 
-&#x09;	- otimização de custos
+	é referencia em dados, ia e inovação, sendo muito atrativo para startups, cientistas de dados e empresas digitais
 
-&#x09;	- maior alcance geografico
+	pontos fortes
+	- exelencia com dados, analytics e ia
+	- preços competitivos e modelo de cobrança por segundo
 
+	diferenciais estrategicos
+	- ideal para workloads de big data e machine learning
+	- integração com serviços google
+	- foco em inovação e open source
 
 
-&#x09;desafios de segurança
+# VIRTUAL MACHINES
 
-&#x09;	- visibilidade limitada e controle fragmentado
+	uma maquina virtual é um recurso lógico que simula um computador físico, com um sistema operacional
 
-&#x09;	- conformidade regulatoria
+	características
+	- elasticidade
+	- portabilidade
+	- snapshots e imagens
+	- suporte a diversos SOs
+	- alta disponibilidade
 
-&#x09;	- gerenciamento de identidade e acesso
+	tipos de vm
+	- uso geral
+	- otimizadas para computação
+	- otimizadas para memoria
+	- otimizadas para armazenamento
+	- propositos específicos
 
-&#x09;	- integraçao entre as clouds
 
-&#x09;	- superficie de ataque ampliada
+# STORAGES
 
+	storage em nuvem é um modelo de armazenamento de dados em que arquivos, bancos de dados e backups sao mantidos em data centers de provedores de nuvem
 
+	caracteristicas
+	- acesso remoto
+	- escalabilidade elastica
+	- alta durabilidade
 
+	tipos de armazenamento
+	- armazenamento em blocos
+	- armazenamento de arquivos
+	- armazenamento de objetos
 
 
-### provedores de nuvem
+# BANCO DE DADOS
 
-&#x09;empresas que oferecem serviços de computação em nuvem (de diversos modelos) através da internet
+	um banco de dados é uma coleção organizada de informações ou dados
 
-&#x09;	- autoatendimento sob demanda
+	caracteristicas
+	- tabelas com colunas e linhas
+	- armazena de forma consistente e segura
+	- escalabilidade sob demanda
+	- alta disponibilidade
+	- gerenciamento simplificado (dependendo do modelo de serviço)
+	- desempenho otimizado
 
-&#x09;	- amplo acesso a rede
+	tipos de banco de dados
+	- banco de dados relacional (sql)
+	- banco de daados nao relacional (NoSQL)
+	- banco de dados em memória
+	- data warehouse
 
-&#x09;	- agrupamento de recursos
 
-&#x09;	- elasticidade rapida
+# REDES
 
-&#x09;	- serviço mensuravel
+	redes em nuvem referem-se à infraestrutura e aos serviços que permitem a conectividade entre recursos, aplicações e usuários dentro e fora da nuvem
 
+	caracteristicas
+	- redes virtuais (vpc/vcn)
+	- escalabilidade sob demanda
+	- segurança integrada
+	- conectividade híbrida
+	- gerenciamento centralizado
 
+	tipos de serviços de rede
+	- rede virtual (vpc/vnet)
+	- vpn e conectividade
+	- balanceamento de carga
+	- dns
+	- cdn (content delivery network)
+	- firewall e segurança de rede
+	- monitoramento e diagnóstico
 
-&#x09;principais provedores do mercado
 
-&#x09;	- AWS
+# COMPUTAÇÃO SERVELESS
 
-&#x09;	- Microsoft AZURE
+	modelo de desenvolvimento de aplicações - criar e implantar aplicações em uma infraestrutura de servidores gerenciados pelos provedores de nuvem
 
-&#x09;	- google cloud plataform (gcp)
+	como funciona
+	1. é criado uma função ou gatilho
+	2. o provedor executa essas funções sob demanda
 
+	beneficios
+	- zero preocupação com servidores físicos ou virtuais
+	- alta escalabilidade
+	- economia (paga-se apenas pelo uso)
+	- foco total no código e na lógica de negócio
 
+	cuidados
+	- startup delay
+	- limitações de tempo de execução e recursos
+	- menor controle sobre a infraestrutura
 
-##### AWS
-
-&#x09;é a escolha mais madura e versátil, ideal para empresas que buscam amplitude de serviços e escala global
-
-###### &#x09;pontos fortes
-
-&#x09;	- maior maturidade e variedade de serviços
-
-&#x09;	- presença global consolidada
-
-
-
-###### &#x09;diferenciais estrategicos
-
-&#x09;	- ampla comunidade e suporte técnico
-
-&#x09;	- serviços avançados em computação, ia e iot
-
-##### 
-
-##### microsoft AZURE
-
-&#x09;se destaca em ambientes corporativos e hibridos, com forte integração ao ecossistema microsoft
-
-###### &#x09;pontos fortes
-
-&#x09;	- integração nativa com produtos microsoft
-
-&#x09;	- suporte a soluções multicloud com azure arc
-
-
-
-###### &#x09;diferenciais estrategicos
-
-&#x09;	- ideal para empresas que ja usam microsoft
-
-&#x09;	- liderança em nuvem hibrida
-
-
-
-##### GCP - google cloud plataform
-
-&#x09;é referencia em dados, ia e inovação, sendo muito atrativo para startups, cientistas de dados e empresas digitais
-
-###### &#x09;pontos fortes
-
-&#x09;	- exelencia com dados, analytics e ia
-
-&#x09;	- preços competitivos e modelo de cobrança por segundo
-
-
-
-###### &#x09;diferenciais estrategicos
-
-&#x09;	- ideal para workloads de big data e machine learning
-
-&#x09;	- integração com serviços google
-
-&#x09;	- foco em inovação e open source
-
-
-
-
-
-### VIRTUAL MACHINES
-
-&#x09;uma maquina virtual é um **recurso lógico que simula um computador físico**, com um sistema operacional
-
-###### &#x09;características
-
-&#x09;	- elasticidade
-
-&#x09;	- portabilidade
-
-&#x09;	- snapshots e imagens
-
-&#x09;	- suporte a diversos SOs
-
-&#x09;	- alta disponibilidade
-
-
-
-###### &#x09;tipos de vm
-
-&#x09;	- uso geral
-
-&#x09;	- otimizadas para computação
-
-&#x09;	- otimizadas para memoria
-
-&#x09;	- otimizadas para armazenamento
-
-&#x09;	- propositos específicos
-
-
-
-##### storages
-
-&#x09;storage em nuvem é um modelo de **armazenamento de dados em que arquivos, bancos de dados e backups** sao mantidos em data centers de provedores de nuvem
-
-###### &#x09;caracteristicas
-
-&#x09;	- acesso remoto
-
-&#x09;	- escalabilidade elastica
-
-&#x09;	- alta durabilidade
-
-
-
-###### &#x09;tipos de armazenamento
-
-&#x09;	- armazenamento em blocos
-
-&#x09;	- armazenamento de arquivos
-
-&#x09;	- armazenamento de objetos
-
-
-
-### BANCO DE DADOS
-
-&#x09;um banco de dados é uma **coleção organizada** de **informações** ou **dados**
-
-&#x09;	caracteristicas
-
-&#x09;	- tabelas com colunas e linhas
-
-&#x09;	- armazena de forma consistente e segura
-
-&#x09;	- escalabilidade sob demanda
-
-&#x09;	- alta disponibilidade
-
-&#x09;	- gerenciamento simplificado (dependendo do modelo de serviço)
-
-* desempenho otimizado
-
-
-
-###### &#x09;tipos de banco de dados
-
-&#x09;	- banco de dados relacional (sql)
-
-&#x09;	- banco de daados nao relacional (NoSQL)
-
-&#x09;	- banco de dados em memória
-
-&#x09;	- data warehouse
-
-
-
-### REDES
-
-&#x09;redes em nuvem referem-se à infraestrutura e aos serviços que permitem a conectividade entre recursos, aplicações e usuários **dentro e fora da nuvem**
-
-
-
-##### &#x09;caracteristicas
-
-&#x09;	- redes virtuais (vpc/vcn)
-
-&#x09;	- escalabilidade sob demanda
-
-&#x09;	- segurança integrada
-
-&#x09;	- conectividade híbrida
-
-&#x09;	- gerenciamento centralizado
-
-
-
-##### &#x09;tipos de serviços de rede
-
-&#x09;	- rede virtual (vpc/vnet)
-
-&#x09;	- vpn e conectividade
-
-&#x09;	- balanceamento de carga
-
-&#x09;	- dns
-
-&#x09;	- cdn (content delivery network)
-
-&#x09;	- firewall e segurança de rede
-
-&#x09;	- monitoramento e diagnóstico
-
-
-
-### COMPUTAÇÃO SERVELESS
-
-&#x09;modelo de desenvolvimento de aplicações - criar e implantar aplicações em **uma infraestrutura de servidores gerenciados pelos provedores de nuvem**
-
-
-
-##### &#x09;como funciona
-
-&#x09;	1. é criado uma função ou gatilho
-
-&#x09;	2. o provedor executa essas funções sob demanda
-
-
-
-##### &#x09;beneficios
-
-&#x09;	- zero preocupação com servidores físicos ou virtuais
-
-&#x09;	- alta escalabilidade
-
-&#x09;	- economia (paga-se apenas pelo uso)
-
-&#x09;	- foco total no código e na lógica de negócio
-
-
-
-##### &#x09;cuidados
-
-&#x09;	- startup delay
-
-&#x09;	- limitações de tempo de execução e recursos
-
-&#x09;	- menor controle sobre a infraestrutura
-
-
-
-##### &#x09;casos de uso
-
-&#x09;	- processamento de imagens e videos
-
-&#x09;	- APIs e microsserviços
-
-&#x09;	- automação de tarefas e agendamentos
-
-&#x09;	- integração com IoT
-
-&#x09;	- chatbots e assistentes virtuais
-
-&#x09;	- notificações e envio de emails
-
-
-
+	casos de uso
+	- processamento de imagens e videos
+	- APIs e microsserviços
+	- automação de tarefas e agendamentos
+	- integração com IoT
+	- chatbots e assistentes virtuais
+	- notificações e envio de emails
